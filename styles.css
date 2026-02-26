@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-image: url(IMG_8247.JPG);
+    background-image: url(IMG_8612.JPG);
     background-size: cover;        /* Täcker hela skärmen */
     background-position: center;   /* Centrerar bilden */
     background-repeat: no-repeat;  /* Ingen upprepning */
@@ -53,5 +53,6 @@ button:hover {
 .status-off {
     color: #f00; /* Röd text när inaktiv */
 }
+
 
 
