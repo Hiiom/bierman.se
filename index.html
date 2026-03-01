@@ -1,24 +1,20 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Välkommen till Bierman.se!</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Välkommen till Bierman.se!</h1>
-    </div>
-    <script src="main.js"></script>
-</body>
-    <div class="container">
-  <section class="section"><img src=IMG_8247.JPG></section>
-  <section class="section"><img src=IMG_8612.JPG></section>
-  <section class="section"><img src="bild3.jpg"></section>
+<div class="layout">
+
+  <!-- VÄNSTER -->
+  <div class="left">
+    <h1>Välkommen till Bierman.se</h1>
+    <p>Skriv något och lägg till en bild 👇</p>
+
+    <form id="postForm">
+      <textarea id="textInput" placeholder="Skriv din text..."></textarea>
+      <input type="file" id="imageInput" accept="image/*">
+      <button type="submit">Publicera</button>
+    </form>
+  </div>
+
+  <!-- HÖGER -->
+  <div class="right">
+    <div id="gallery" class="gallery"></div>
+  </div>
+
 </div>
-</html>
-
-
-
-
