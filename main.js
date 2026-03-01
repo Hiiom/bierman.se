@@ -1,10 +1,12 @@
 // main.js
 
-// Kontrollera om webbläsaren stödjer Web Speech API
-console.log('Web Speech API är tillgängligt:', ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window));
+// Kontrollerwindow.addEventListener("scroll", () => {
+  const images = document.querySelectorAll(".parallax");
+  let scrollY = window.scrollY;
 
-if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    const recognition = new SpeechRecognition();
-}
+  images.forEach(img => {
+    img.style.transform = `translateY(${scrollY * 0.2}px)`;
+  });
+});
+
 
