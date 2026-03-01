@@ -53,6 +53,22 @@ button:hover {
 .status-off {
     color: #f00; /* Röd text när inaktiv */
 }
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
